@@ -95,3 +95,25 @@ resource "azurerm_traffic_manager_azure_endpoint" "nyep" {
   weight             = 100
   target_resource_id = azurerm_windows_web_app.nyas.id
 }
+
+# Azure AD Users
+resource "azuread_user" "user1" {
+  user_principal_name = "bob@contosocoffee.com"
+  display_name        = "Bob"
+  mail_nickname       = "bob"
+  password            = "SecretP@sswd99!"
+}
+
+resource "azuread_user" "user2" {
+  user_principal_name = "dave@contosocoffee.com"
+  display_name        = "Dave"
+  mail_nickname       = "dave"
+  password            = "SecretP@sswd99!"
+}
+
+resource "azuread_user" "user3" {
+  user_principal_name = "mark@contosocoffee.com"
+  display_name        = "Mark"
+  mail_nickname       = "mark"
+  password            = "SecretP@sswd99!"
+}
