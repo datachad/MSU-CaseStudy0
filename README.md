@@ -12,6 +12,9 @@ Dave is administrating the website. He is assigned the "Contributor" role to the
 
 Mark only requires read access to the resource, hence why he is only assigned the "Reader" role. 
 
+![image](https://user-images.githubusercontent.com/105489708/190192834-771e9cfc-3e54-44e3-a6a5-dc3b61acf19d.png)
+
+
 ## Website Hosting
 We chose the difficulty level 1, where we host the website from a GitHub repository. Contoso Coffee needs to be in both New York and London, so we utilized Traffic manager as our solution for proper regional routing. Traffic manager was set in performance mode. This made the traffic automatically route based on location / performance of the website, reducing latency, and providing the local page needed. 
 
