@@ -13,4 +13,12 @@ Dave is administrating the website. He is assigned the "Contributor" role to the
 Mark only requires read access to the resource, hence why he is only assigned the "Reader" role. 
 
 ## Website Hosting
-Test test
+We chose the difficulty level 1, where we host the website from a GitHub repository. Contoso Coffee needs to be in both New York and London, so we utilized Traffic manager as our solution for proper regional routing. Traffic manager was set in performance mode. This made the traffic automatically route based on location / performance of the website, reducing latency, and providing the local page needed. 
+
+
+## Contoso Storage 
+
+Large amounts of images are needed for Contoso to display them on screens in store. These images should also be able to auto archive. 
+
+A solution to this was to create a storage account with a blob container within it. 
+SAS keys are enabled when using blob containers, an easy way to give developers access to what they need, within time limits. 
