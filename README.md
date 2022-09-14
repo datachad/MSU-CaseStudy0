@@ -22,3 +22,4 @@ Large amounts of images are needed for Contoso to display them on screens in sto
 
 A solution to this was to create a storage account with a blob container within it. 
 SAS keys are enabled when using blob containers, an easy way to give developers access to what they need, within time limits. 
+For archiving purposes we enabled lifecycle management, and made files that have not been modified for 30 days, archive itself. 
