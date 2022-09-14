@@ -10,7 +10,9 @@ Websites are up and working as they should.
 Traffic manager redirects to one of the websites.
 
 Now we need to test if the traffic manager redirects as it is supposed to do. Since the website is hosted from the same Github repo and the website looks identical we cannot tell which website we get connected to. Another option is to use "nslookup" to check where we get redirected.
-![traffic manager test](https://user-images.githubusercontent.com/110972992/190191875-4a19c1b5-9303-4f96-bf54-2e1786ce8b3b.png)
+
+![traffic manager test](https://user-images.githubusercontent.com/110972992/190195342-beb9b73e-f4e4-453f-b873-b7bc05a02a09.png)
+
 
 For the first connection we are connecting from Norway and we get redirected the London website as we should.
 
